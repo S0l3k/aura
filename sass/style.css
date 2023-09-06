@@ -381,4 +381,53 @@ template {
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
+  cursor: pointer;
+}
+
+.hero {
+  height: 680px;
+  padding: 160px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #07060B;
+}
+
+.info {
+  width: 620px;
+  height: 360px;
+}
+.info__text {
+  display: flex;
+  flex-direction: column;
+  height: 254px;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 84px;
+  color: white;
+  margin-bottom: 36px;
+}
+.info-buttons__buy {
+  border-radius: 40px;
+  padding: 15px 54px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #07060B;
+  border: none;
+  background: var(--button_cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+  cursor: pointer;
+  margin-right: 32px;
+}
+.info-buttons__author {
+  border-radius: 40px;
+  padding: 10px 54px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  background: #07060B;
+  border: 5px solid var(--button_cta, #46F4DB);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
