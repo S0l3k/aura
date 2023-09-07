@@ -649,4 +649,113 @@ template {
   font-weight: 700;
   line-height: normal;
   color: #07060B;
+}
+
+.other__title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.other_auctions-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 90px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards__button {
+  display: flex;
+  width: 296px;
+  padding: 25px 54px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 5px solid #46F4DB;
+  background: none;
+  font-family: Muller;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card {
+  width: 296px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.card-wrapper_img {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  padding: 7px 10px;
+  border-radius: 40px 40px 0 0;
+  background: #EDEDF2;
+}
+.card__img {
+  width: 160px;
+  height: 160px;
+}
+.card-info {
+  width: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 32px 16px;
+  border-radius: 0 0 40px 40px;
+  background: #07060B;
+}
+
+.info-user {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.info__name_sticker {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  margin-bottom: 12px;
+}
+.info__bid {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #46F4DB;
+  margin-bottom: 12px;
+}
+.info__timer {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #95959D;
+}
+
+.user__img_card {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin-right: 8px;
+}
+.user__username_card {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
