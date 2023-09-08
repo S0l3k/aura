@@ -878,4 +878,58 @@ template {
   line-height: normal;
   color: white;
   margin-bottom: 32px;
+}
+
+.be_author {
+  padding: 90px 0;
+}
+.be_author-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribtion {
+  width: 624px;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
+}
+.subscribtion__title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.subscribtion__text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.subscribtion__img {
+  width: 350px;
+  height: 252px;
+}
+.subscribtion__img-back {
+  float: left;
+}
+.subscribtion__img-middle {
+  float: right;
+  margin-left: -33%;
+  position: relative;
+  z-index: 1;
+}
+.subscribtion__img-front {
+  float: right;
+  margin-left: -33%;
+  position: relative;
+  z-index: 2;
+}
+
+.img_stack {
+  display: flex;
+  height: 252px;
 }/*# sourceMappingURL=style.css.map */
