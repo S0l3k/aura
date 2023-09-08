@@ -698,10 +698,6 @@ template {
   border-radius: 40px 40px 0 0;
   background: #EDEDF2;
 }
-.card__img {
-  width: 160px;
-  height: 160px;
-}
 .card-info {
   width: inherit;
   height: 100%;
