@@ -1,4 +1,4 @@
-var menu = ['1', '2', '3']
+var menu = ['1', '2', '3', '4']
 const Stickers = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
