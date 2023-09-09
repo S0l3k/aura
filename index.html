@@ -422,11 +422,20 @@
 
     <div class="file">
       <!-- Надо вставить форму с тг ником, который также отправляется вместе с фото -->
-      <form enctype="multipart/form-data" method="post">
-        <p>Загрузите ваши фотографии на сервер</p>
-        <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
-          <input type="submit" value="Отправить">
-        </p>
+
+      <form enctype="multipart/form-data" method="post" class="file-form">
+        <div class="form-img_loader_wrapper">
+          <div class="form__img_wrapper">
+            <img src="img/be_author_form_plus.svg" alt="" class="form__img">
+          </div>
+          <!-- /.form__img_wrapper -->
+          
+          <input type="file" class="form__img_loader" name="photo" multiple accept="image/*,image/jpeg">
+        </div>
+        <!-- /.form-img_loader_wrapper -->
+
+        <input type="text" class="form__tg" placeholder="@telegram_nickname">
+        <input type="submit" class="form__submit" value="Отправить">
       </form>
     </div>
     <!-- /.file -->
@@ -605,5 +614,7 @@
   
 <script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
