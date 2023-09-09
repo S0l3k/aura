@@ -987,4 +987,86 @@ template {
   line-height: normal;
   color: #07060B;
   cursor: pointer;
+}
+
+.top_sales {
+  background: #07060B;
+  padding: 90px 0;
+}
+.top_sales__title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+.top_sales-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.grid-img {
+  display: flex;
+  width: 142px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 16px 0 16px 16px;
+  background: #EDEDF2;
+  border-radius: 40px 0 0 40px;
+}
+.grid-info {
+  width: inherit;
+  padding: 32px;
+  background: white;
+  border-radius: 0 40px 40px 0;
+}
+.grid-el {
+  width: 624px;
+  height: 174px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.info-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.info__username {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #07060B;
+}
+.info__img_user {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin-right: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info__sticker_name {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #07060B;
+}
+.price__crypto {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #07060B;
+}
+.price__cash {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #95959D;
 }/*# sourceMappingURL=style.css.map */
