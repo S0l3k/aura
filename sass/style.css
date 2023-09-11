@@ -1187,4 +1187,19 @@ template {
   font-style: normal;
   font-weight: 700;
   line-height: normals;
+}
+
+.under_footer {
+  padding: 8px;
+  background: #07060B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.under_footer__text {
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
