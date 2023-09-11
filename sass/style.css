@@ -338,6 +338,7 @@ template {
   margin-right: 630px;
 }
 .navbar__author {
+  padding: 4px 10px;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
@@ -348,6 +349,7 @@ template {
   border: 2px solid #57D272;
 }
 .navbar__collections {
+  padding: 4px 10px;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
@@ -358,6 +360,7 @@ template {
   border: 2px solid #57D272;
 }
 .navbar__services {
+  padding: 4px 10px;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
@@ -830,7 +833,7 @@ template {
 .mailling__name {
   width: 460px;
   height: 70px;
-  padding: 10px 10px 10px 32px;
+  padding: 10px 32px;
   border-radius: 40px;
   background: #07060B;
   border: none;
@@ -840,11 +843,12 @@ template {
   line-height: normal;
   color: white;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 .mailling__email {
   width: 460px;
   height: 70px;
-  padding: 10px 10px 10px 32px;
+  padding: 10px 32px;
   border-radius: 40px;
   background: #07060B;
   border: none;
@@ -854,6 +858,7 @@ template {
   line-height: normal;
   color: white;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 .mailling__button {
   width: 296px;
