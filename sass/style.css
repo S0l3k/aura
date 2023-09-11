@@ -1142,4 +1142,49 @@ template {
 }
 .img__req_5 {
   z-index: 2;
+}
+
+.footer {
+  background: #46F4DB;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer__logo {
+  width: 100px;
+  height: 40px;
+}
+.footer__req {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.req__agreement {
+  text-decoration: none;
+  color: #07060B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.req__license {
+  text-decoration: none;
+  color: #07060B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.req__faq {
+  text-decoration: none;
+  color: #07060B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normals;
 }/*# sourceMappingURL=style.css.map */
