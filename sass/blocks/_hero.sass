@@ -4,13 +4,14 @@
   display: flex
   justify-content: center
   background-color: $black
+  overflow: hidden
   &-container
     display: flex
-    justify-content: space-between
 
 .info
   width: 620px
   height: 360px
+  margin-right: 35px
   &__text
     display: flex
     flex-direction: column
@@ -50,7 +51,34 @@
   display: flex
   align-items: center
   &-imgs
-    height: 680px
 .imgs
   &_img
-    
+    position: relative
+.img
+  &-1
+    translate: 50px 250px
+    z-index: 1
+  &-2
+    translate: 75px 50%
+    rotate: 103deg
+    z-index: 2
+  &-3
+    z-index: 3
+  &-4
+    translate: 325px -31px
+    z-index: 4
+  &-5
+    z-index: 5
+  &-6
+    z-index: 6
+  &-7
+    translate: 0px 256px
+    z-index: 7
+  &-8
+    z-index: 8
+  &-9
+    translate: 65px -100px
+    z-index: 9
+  &-10
+    translate: 65px -400px
+    z-index: 10
