@@ -390,6 +390,10 @@ template {
   justify-content: center;
   background-color: #07060B;
 }
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 .info {
   width: 620px;
@@ -429,6 +433,14 @@ template {
   background: #07060B;
   border: 5px solid var(--button_cta, #46F4DB);
   cursor: pointer;
+}
+
+.stickers {
+  display: flex;
+  align-items: center;
+}
+.stickers-imgs {
+  height: 680px;
 }
 
 .head {

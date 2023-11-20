@@ -1,663 +1,850 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aura - stickers collection</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aura - stickers collection</title>
 
-  <!-- Надо подключить стили -->
+		<!-- Надо подключить стили -->
 
-  <link rel="stylesheet" href="sass/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
-  <link rel="stylesheet" href="sass/style.css">
+		<link
+			rel="stylesheet"
+			href="sass/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container header-container">
+				<img src="img/logo.svg" alt="Icon: logo" class="logo" />
 
-</head>
-<body>
+				<div class="navbar">
+					<a href="" class="navbar__author">Авторы</a>
+					<a href="" class="navbar__collections">Коллекции</a>
+					<a href="" class="navbar__services">Сервисы</a>
+				</div>
+				<!-- /.navbar -->
 
-<header class="header">
-  <div class="container header-container">
-    <img src="img/logo.svg" alt="Icon: logo" class="logo">
+				<button class="pocket">Кошелёк</button>
+			</div>
+			<!-- /.container -->
+		</header>
 
-    <div class="navbar">
-      <a href="" class="navbar__author">Авторы</a>
-      <a href="" class="navbar__collections">Коллекции</a>
-      <a href="" class="navbar__services">Сервисы</a>
-    </div>
-    <!-- /.navbar -->
+		<section class="hero">
+			<div class="hero-container container">
+				<div class="info">
+					<span class="info__text">
+						Площадка для реализации криптостикеров
+					</span>
 
-    <button class="pocket">Кошелёк</button>
-  </div>
-  <!-- /.container -->
-</header>
+					<div class="info-buttons">
+						<button class="info-buttons__buy">Купить</button>
+						<button class="info-buttons__author">Стать автором</button>
+					</div>
+					<!-- /.info__buttons -->
+				</div>
+				<!-- /.info -->
 
-<section class="hero">
-  <div class="container">
-    <div class="info">
-      <span class="info__text">
-        Площадка для реализации криптостикеров
-      </span>
+				<div class="stickers">
+					<div class="stickers-imgs">
+						<img src="img/stickers-imgs/ANIME.png" alt="" class="imgs_img" />
+						<img
+							src="img/stickers-imgs/AURA95-(2) 1.png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/AURA95-(3).png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/AuraHolographic6.png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/DOPEMICKY-(1).png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/DOPEMICKY-(3) 1.png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img src="img/stickers-imgs/HOLO.png" s alt="" class="imgs_img" />
+						<img
+							src="img/stickers-imgs/HYPNOS-(2) 1.png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/PRODUCER-(1) 1.png"
+							alt=""
+							class="imgs_img"
+						/>
+						<img
+							src="img/stickers-imgs/THE-RUSSIAN-VISION-(3).png"
+							alt=""
+							class="imgs_img"
+						/>
+					</div>
+					<!-- /.stickers-imgs -->
+				</div>
+				<!-- /.stickers -->
+			</div>
+			<!-- /.hero-container container -->
+		</section>
 
-      <div class="info-buttons">
-        <button class="info-buttons__buy">Купить</button>
-        <button class="info-buttons__author">Стать автором</button>
-      </div>
-      <!-- /.info__buttons -->
-    </div>
-    <!-- /.info -->
+		<section class="auction">
+			<div class="container">
+				<div class="head">
+					<span class="head__title">Аукцион</span>
 
-    <div class="stickers"></div>
-    <!-- /.stickers -->
-  </div>
-  <!-- /.container -->
-</section>
+					<div class="head-live">
+						<img src="img/circle.svg" alt="" class="live__circle" />
+						<span class="live__text">Live auction</span>
+					</div>
+					<!-- /.head-live -->
+				</div>
+				<!-- /.head -->
 
-<section class="auction">
-  <div class="container">
-    <div class="head">
-      <span class="head__title">Аукцион</span>
+				<div class="information">
+					<img
+						src="img/information__sticker.png"
+						alt=""
+						class="information__sticker"
+					/>
 
-      <div class="head-live">
-        <img src="img/circle.svg" alt="" class="live__circle">
-        <span class="live__text">Live auction</span>
-      </div>
-      <!-- /.head-live -->
-    </div>
-    <!-- /.head -->
+					<div class="information-bid">
+						<div class="bid-user">
+							<img src="img/user.png" alt="" class="user__img" />
+							<span class="user__username">Serge_VM222</span>
+						</div>
+						<!-- /.bid-user -->
 
-    <div class="information">
-      <img src="img/information__sticker.png" alt="" class="information__sticker">
+						<span class="bid__sticker_name">Witcherrr_3 (xml_t5)</span>
 
-      <div class="information-bid">
-        <div class="bid-user">
-          <img src="img/user.png" alt="" class="user__img">
-          <span class="user__username">Serge_VM222</span>
-        </div>
-        <!-- /.bid-user -->
-        
-        <span class="bid__sticker_name">Witcherrr_3 (xml_t5)</span>
+						<div class="bid-bid_info">
+							<div class="bid_info-bid">
+								<span class="bid__text">Ставка:</span>
+								<span class="bid__price_crypto">0.10 ETH</span>
+								<span class="bid__price_cash">$351.24</span>
+							</div>
+							<!-- /.bid_info-bid -->
 
-        <div class="bid-bid_info">
-          <div class="bid_info-bid">
-            <span class="bid__text">Ставка:</span>
-            <span class="bid__price_crypto">0.10 ETH</span>
-            <span class="bid__price_cash">$351.24</span>
-          </div>
-          <!-- /.bid_info-bid -->
+							<div class="bid_info-timer">
+								<span class="timer__text">Окончание через:</span>
 
-          <div class="bid_info-timer">
-            <span class="timer__text">Окончание через:</span>
+								<div class="timer-timer">
+									<div class="timer-wrapper__hour">
+										<span class="timer__hour">01</span>
+										<span class="timer__hour_text">Час</span>
+									</div>
 
-            <div class="timer-timer">
-              <div class="timer-wrapper__hour">
-                <span class="timer__hour">01</span>
-                <span class="timer__hour_text">Час</span>
-              </div>
+									<div class="timer-wrapper__minute">
+										<span class="timer__minute">48</span>
+										<span class="timer__minute_text">Мин</span>
+									</div>
 
-              <div class="timer-wrapper__minute">
-                <span class="timer__minute">48</span>
-                <span class="timer__minute_text">Мин</span>
-              </div>
+									<div class="timer-wrapper__second">
+										<span class="timer__second">47</span>
+										<span class="timer__second_text">Сек</span>
+									</div>
+								</div>
+								<!-- /.timer-timer -->
 
-              <div class="timer-wrapper__second">
-                <span class="timer__second">47</span>
-                <span class="timer__second_text">Сек</span>
-              </div>
-            </div>
-            <!-- /.timer-timer -->
+								<img src="img/timer.svg" alt="" class="timer__img" />
+							</div>
+							<!-- /.bid_info-timer -->
+						</div>
+						<!-- /.bid-bid_info -->
 
-            <img src="img/timer.svg" alt="" class="timer__img">
-          </div>
-          <!-- /.bid_info-timer -->
-        </div>
-        <!-- /.bid-bid_info -->
+						<button class="bid__button">Сделать ставку</button>
+					</div>
+					<!-- /.information-bid -->
+				</div>
+				<!-- /.information -->
+			</div>
+			<!-- /.container -->
+		</section>
 
-        <button class="bid__button">Сделать ставку</button>
-      </div>
-      <!-- /.information-bid -->
-    </div>
-    <!-- /.information -->
-  </div>
-  <!-- /.container -->
-</section>
+		<section class="other_auctions">
+			<div class="container">
+				<span class="other__title">Другие аукционы</span>
 
-<section class="other_auctions">
-  <div class="container">
-    <span class="other__title">Другие аукционы</span>
+				<div class="other_auctions-cards">
+					<div class="cards">
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-1.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-    <div class="other_auctions-cards">
-      <div class="cards">
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-1.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">Frank.Nagval</span>
+								</div>
+								<!-- /.info-user -->
 
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">Frank.Nagval</span>
-            </div>
-            <!-- /.info-user -->
+								<span class="info__name_sticker">Alien (green) e_e</span>
+								<span class="info__bid">0.02 ETH</span>
+								<span class="info__timer">03 часа 25 мин 23 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-            <span class="info__name_sticker">Alien (green) e_e</span>
-            <span class="info__bid">0.02 ETH</span>
-            <span class="info__timer">03 часа 25 мин 23 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-2.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-2.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-2.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">CPH_777</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">CoBRRRa</span>
-            <span class="info__bid">0.5 ETH</span>
-            <span class="info__timer">15 мин 03 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-2.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">CPH_777</span>
+								</div>
+								<!-- /.info-user -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-3.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-3.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">sUpah_kiLLah</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">Diamonds (4)</span>
-            <span class="info__bid">0.008 ETH</span>
-            <span class="info__timer">23 часа 05 мин 08 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+								<span class="info__name_sticker">CoBRRRa</span>
+								<span class="info__bid">0.5 ETH</span>
+								<span class="info__timer">15 мин 03 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-4.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-4.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">ttgs</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">Holofobia-2</span>
-            <span class="info__bid">1.0 ETH</span>
-            <span class="info__timer">01 час 15 мин 55 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-3.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-5.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-5.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">Peppppe22</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">Baby Yoda 1</span>
-            <span class="info__bid">0.2 ETH</span>
-            <span class="info__timer">01 час 28 мин 11 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-3.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">sUpah_kiLLah</span>
+								</div>
+								<!-- /.info-user -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-6.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-6.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">1300e1440</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">alien vs. predator (01)</span>
-            <span class="info__bid">0.09 ETH</span>
-            <span class="info__timer">08 часов 44 мин 43 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+								<span class="info__name_sticker">Diamonds (4)</span>
+								<span class="info__bid">0.008 ETH</span>
+								<span class="info__timer">23 часа 05 мин 08 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-7.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-7.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">Robert_Wward</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">IAMDECEPTICON</span>
-            <span class="info__bid">0.1 ETH</span>
-            <span class="info__timer">55 мин 18 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-4.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-        <div class="card">
-          <div class="card-wrapper_img">
-            <img src="img/card-8.png" alt="" class="card__img">
-          </div>
-          <!-- /.card-wrapper_img -->
-        
-          <div class="card-info">
-            <div class="info-user">
-              <img src="img/user_img_card-8.jpg" alt="" class="user__img_card">
-              <span class="user__username_card">ttgs</span>
-            </div>
-            <!-- /.info-user -->
-        
-            <span class="info__name_sticker">Ghostbusterrrrrrrs</span>
-            <span class="info__bid">0.09 ETH</span>
-            <span class="info__timer">18 мин 12 сек</span>
-          </div>
-          <!-- /.card-info -->
-        </div>
-        <!-- /.card -->
-      </div>
-      <!-- /.cards -->
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-4.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">ttgs</span>
+								</div>
+								<!-- /.info-user -->
 
-      <button class="cards__button">Все аукционы</button>
-    </div>
-    <!-- /.other_auctions-card -->
-  </div>
-  <!-- /.container -->
-</section>
+								<span class="info__name_sticker">Holofobia-2</span>
+								<span class="info__bid">1.0 ETH</span>
+								<span class="info__timer">01 час 15 мин 55 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-<section class="new_stickers">
-  <div class="container">
-    <span class="new_stickers__title">Новые стикеры</span>
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-5.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-    <!-- Slider main container -->
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-5.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">Peppppe22</span>
+								</div>
+								<!-- /.info-user -->
 
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-1.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
+								<span class="info__name_sticker">Baby Yoda 1</span>
+								<span class="info__bid">0.2 ETH</span>
+								<span class="info__timer">01 час 28 мин 11 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-2.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-        </div>
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-6.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-        <div class="swiper-slide">
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-3.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-          
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-4.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-        </div>
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-6.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">1300e1440</span>
+								</div>
+								<!-- /.info-user -->
 
-        <div class="swiper-slide">
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-5.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-          
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-6.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-          
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-7.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-        </div>
+								<span class="info__name_sticker">alien vs. predator (01)</span>
+								<span class="info__bid">0.09 ETH</span>
+								<span class="info__timer">08 часов 44 мин 43 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-        <div class="swiper-slide">
-          <div class="slide-new_stiker">
-            <img src="img/new_stikers-8.png" alt="" class="new_sticker__preview">
-          </div>
-          <!-- /.slide-new_sticker -->
-        </div>
-      </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-  <!-- /.container -->
-</section>
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-7.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-<section class="form">
-  <div class="container">
-    <form action="#" class="mailling">
-      <span class="mailling__title">
-        Будь в курсе новинок! Подпишись на рассылку!
-      </span>
-      <input type="text" class="mailling__name" placeholder="Имя">
-      <input type="text" class="mailling__email" placeholder="E-mail">
-      <input type="submit" class="mailling__button" placeholder="Подписаться">
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-7.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">Robert_Wward</span>
+								</div>
+								<!-- /.info-user -->
 
-      <div class="mailling-checkbox">
-        <input type="checkbox" id="faq" name="faq" checked />
-        <label for="faq">Согласен на обработку персональных данных</label>
-      </div>
-      <!-- /.mailling-checkbox -->
-    </form>
+								<span class="info__name_sticker">IAMDECEPTICON</span>
+								<span class="info__bid">0.1 ETH</span>
+								<span class="info__timer">55 мин 18 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
 
-    <div class="img">
-      <img src="" alt="" class="img__alot">
-      <img src="" alt="" class="img__alot">
-      <img src="" alt="" class="img__alot">
-    </div>
-    <!-- /.img -->
-  </div>
-  <!-- /.container -->
-</section>
+						<div class="card">
+							<div class="card-wrapper_img">
+								<img src="img/card-8.png" alt="" class="card__img" />
+							</div>
+							<!-- /.card-wrapper_img -->
 
-<section class="be_author">
-  <div class="be_author-container container">
-    <div class="subscribtion">
-      <h2 class="subscribtion__title">Стать автором</h2>
-      <h3 class="subscribtion__text__bold">
-        Если ты художник или стремишься им стать — <br>
-        добро пожаловать к нам!
-      </h3>
-      <p class="subscribtion__text">
-        Отправь нам от трёх до пяти своих работ и напиши свой ник в телеграме. Если наши кураторы решат, что нам по пути, то мы
-        обязательно свяжемся с тобой и обговорим условия сотрудничества! <b>Удачи!</b>
-      </p>
+							<div class="card-info">
+								<div class="info-user">
+									<img
+										src="img/user_img_card-8.jpg"
+										alt=""
+										class="user__img_card"
+									/>
+									<span class="user__username_card">ttgs</span>
+								</div>
+								<!-- /.info-user -->
 
-      <div class="img_stack">
-        <img src="img/be_author-1.png" alt="" class="subscribtion__img subscribtion__img-back">
-        <img src="img/be_author-2.png" alt="" class="subscribtion__img subscribtion__img-middle">
-        <img src="img/be_author-3.png" alt="" class="subscribtion__img subscribtion__img-front">
-      </div>
-      <!-- /.img_stack -->
-    </div>
-    <!-- /.subscribtion -->
+								<span class="info__name_sticker">Ghostbusterrrrrrrs</span>
+								<span class="info__bid">0.09 ETH</span>
+								<span class="info__timer">18 мин 12 сек</span>
+							</div>
+							<!-- /.card-info -->
+						</div>
+						<!-- /.card -->
+					</div>
+					<!-- /.cards -->
 
-    <div class="file">
-      <!-- Надо вставить форму с тг ником, который также отправляется вместе с фото -->
+					<button class="cards__button">Все аукционы</button>
+				</div>
+				<!-- /.other_auctions-card -->
+			</div>
+			<!-- /.container -->
+		</section>
 
-      <form enctype="multipart/form-data" method="post" class="file-form">
-        <div class="form-img_loader_wrapper">
-          <div class="form__img_wrapper">
-            <img src="img/be_author_form_plus.svg" alt="" class="form__img">
-          </div>
-          <!-- /.form__img_wrapper -->
-          
-          <input type="file" class="form__img_loader" name="photo" multiple accept="image/*,image/jpeg">
-        </div>
-        <!-- /.form-img_loader_wrapper -->
+		<section class="new_stickers">
+			<div class="container">
+				<span class="new_stickers__title">Новые стикеры</span>
 
-        <input type="text" class="form__tg" placeholder="@telegram_nickname">
-        <input type="submit" class="form__submit" value="Отправить">
-      </form>
-    </div>
-    <!-- /.file -->
-  </div>
-  <!-- /.container -->
-</section>
+				<!-- Slider main container -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
 
-<section class="top_sales">
-  <div class="container">
-    <span class="top_sales__title">Топ продаж</span>
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-1.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
 
-    <div class="top_sales-grid">
-      <div class="grid-el el-1">
-        <div class="grid-img">
-          <img src="img/sticker/Holofobia1.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-        
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/ttgs.jpg" alt="" class="info__img_user">
-            <span class="info__username">ttgs</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Holofobia1</span>
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-2.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
+						</div>
 
-          <div class="info-price">
-            <span class="price__crypto">4.70 ETH</span>
-            <span class="price__cash">($16,873.47)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-1 -->
+						<div class="swiper-slide">
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-3.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
 
-      <div class="grid-el el-2">
-        <div class="grid-img">
-          <img src="img/sticker/Baby Joda.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-      
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/Chris22.jpg" alt="" class="info__img_user">
-            <span class="info__username">Chris22</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Baby Joda</span>
-      
-          <div class="info-price">
-            <span class="price__crypto">2.00 ETH</span>
-            <span class="price__cash">($7,121.04)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-2 -->
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-4.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
+						</div>
 
-      <div class="grid-el el-3">
-        <div class="grid-img">
-          <img src="img/sticker/Sadsadsad.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-      
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/Paul-22.jpg" alt="" class="info__img_user">
-            <span class="info__username">Paul-22</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Sadsadsad</span>
-      
-          <div class="info-price">
-            <span class="price__crypto">1.50 ETH</span>
-            <span class="price__cash">($5,365.62)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-3 -->
+						<div class="swiper-slide">
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-5.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
 
-      <div class="grid-el el-4">
-        <div class="grid-img">
-          <img src="img/sticker/Y.EEE.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-      
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/Tat-2.jpg" alt="" class="info__img_user">
-            <span class="info__username">Tat_2</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Y.EEE</span>
-      
-          <div class="info-price">
-            <span class="price__crypto">3.00 ETH</span>
-            <span class="price__cash">($10,731.24)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-4 -->
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-6.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
 
-      <div class="grid-el el-5">
-        <div class="grid-img">
-          <img src="img/sticker/Infinity_09.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-      
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/Oswaald.jpg" alt="" class="info__img_user">
-            <span class="info__username">Oswaald</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Infinity_09</span>
-      
-          <div class="info-price">
-            <span class="price__crypto">1.6109 ETH</span>
-            <span class="price__cash">($5,762.32)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-5 -->
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-7.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
+						</div>
 
-      <div class="grid-el el-6">
-        <div class="grid-img">
-          <img src="img/sticker/Attntn.png" alt="" class="grid__sticker">
-        </div>
-        <!-- /.grid-img -->
-      
-        <div class="grid-info">
-          <div class="info-profile">
-            <img src="img/user/wardxxx.jpg" alt="" class="info__img_user">
-            <span class="info__username">wardxxx</span>
-          </div>
-          <!-- /.info-profile -->
-          
-          <span class="info__sticker_name">Attntn</span>
-      
-          <div class="info-price">
-            <span class="price__crypto">1.0 ETH</span>
-            <span class="price__cash">($3,577.08)</span>
-          </div>
-          <!-- /.info-price -->
-        </div>
-        <!-- /.grid-info -->
-      </div>
-      <!-- /.grid-el el-6 -->
-    </div>
-    <!-- /.top_sales__grid -->
-  </div>
-  <!-- /.container -->
-</section>
+						<div class="swiper-slide">
+							<div class="slide-new_stiker">
+								<img
+									src="img/new_stikers-8.png"
+									alt=""
+									class="new_sticker__preview"
+								/>
+							</div>
+							<!-- /.slide-new_sticker -->
+						</div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
 
-<section class="requirements">
-  <div class="requirements-container container">
-    <div class="requirements-list">
-      <span class="list__title">Для попадания в топ необходимо:</span>
+		<section class="form">
+			<div class="container">
+				<form action="#" class="mailling">
+					<span class="mailling__title">
+						Будь в курсе новинок! Подпишись на рассылку!
+					</span>
+					<input type="text" class="mailling__name" placeholder="Имя" />
+					<input type="text" class="mailling__email" placeholder="E-mail" />
+					<input
+						type="submit"
+						class="mailling__button"
+						placeholder="Подписаться"
+					/>
 
-      <ul class="list-ul">
-        <li class="list-li"> 
-          <img src="img/requirements-1.svg" alt="" class="list__img">
-          <span class="list__text">Минимум пять опубликованных работ</span>
-        </li>
-        <li class="list-li">
-          <img src="img/requirements-2.svg" alt="" class="list__img">
-          <span class="list__text">Инвайт трём коллегам по цеху</span>
-        </li>
-        <li class="list-li">
-          <img src="img/requirements-3.svg" alt="" class="list__img">
-          <span class="list__text">Верифицированный аккаунт</span>
-        </li>
-      </ul>
-    </div>
-    <!-- /.requirements-list -->
+					<div class="mailling-checkbox">
+						<input type="checkbox" id="faq" name="faq" checked />
+						<label for="faq">Согласен на обработку персональных данных</label>
+					</div>
+					<!-- /.mailling-checkbox -->
+				</form>
 
-    <div class="requirements-img">
-      <img src="img/requirements-smile.png" alt="" class="img__req img__req_1">
-      <img src="img/requirements-smile.png" alt="" class="img__req img__req_2">
-      <img src="img/requirements-smile.png" alt="" class="img__req img__req_3">
-      <img src="img/requirements-smile.png" alt="" class="img__req img__req_4">
-      <img src="img/requirements-smile.png" alt="" class="img__req img__req_5">
-    </div>
-    <!-- /.requirements-img -->
-  </div>
-  <!-- /.container -->
-</section>
+				<div class="img">
+					<img src="" alt="" class="img__alot" />
+					<img src="" alt="" class="img__alot" />
+					<img src="" alt="" class="img__alot" />
+				</div>
+				<!-- /.img -->
+			</div>
+			<!-- /.container -->
+		</section>
 
-<footer class="footer">
-  <div class="footer-container container">
-    <img src="img/logo.svg" alt="" class="footer__logo">
-    
-    <div class="footer__req">
-      <a href="" class="req__agreement">Соглашение</a>
-      <a href="" class="req__license">Лицензия</a>
-      <a href="" class="req__faq">FAQ</a>
-    </div>
-    <!-- /.footer__req -->
-  </div>
-  <!-- /.container -->
-</footer>
+		<section class="be_author">
+			<div class="be_author-container container">
+				<div class="subscribtion">
+					<h2 class="subscribtion__title">Стать автором</h2>
+					<h3 class="subscribtion__text__bold">
+						Если ты художник или стремишься им стать — <br />
+						добро пожаловать к нам!
+					</h3>
+					<p class="subscribtion__text">
+						Отправь нам от трёх до пяти своих работ и напиши свой ник
+						в телеграме. Если наши кураторы решат, что нам по пути, то мы
+						обязательно свяжемся с тобой и обговорим условия сотрудничества!
+						<b>Удачи!</b>
+					</p>
 
-<section class="under_footer">
-  <span class="under_footer__text">AURA® | 2021</span>
-</section>
-  
-<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/script.js"></script>
-</body>
+					<div class="img_stack">
+						<img
+							src="img/be_author-1.png"
+							alt=""
+							class="subscribtion__img subscribtion__img-back"
+						/>
+						<img
+							src="img/be_author-2.png"
+							alt=""
+							class="subscribtion__img subscribtion__img-middle"
+						/>
+						<img
+							src="img/be_author-3.png"
+							alt=""
+							class="subscribtion__img subscribtion__img-front"
+						/>
+					</div>
+					<!-- /.img_stack -->
+				</div>
+				<!-- /.subscribtion -->
+
+				<div class="file">
+					<!-- Надо вставить форму с тг ником, который также отправляется вместе с фото -->
+
+					<form enctype="multipart/form-data" method="post" class="file-form">
+						<div class="form-img_loader_wrapper">
+							<div class="form__img_wrapper">
+								<img
+									src="img/be_author_form_plus.svg"
+									alt=""
+									class="form__img"
+								/>
+							</div>
+							<!-- /.form__img_wrapper -->
+
+							<input
+								type="file"
+								class="form__img_loader"
+								name="photo"
+								multiple
+								accept="image/*,image/jpeg"
+							/>
+						</div>
+						<!-- /.form-img_loader_wrapper -->
+
+						<input
+							type="text"
+							class="form__tg"
+							placeholder="@telegram_nickname"
+						/>
+						<input type="submit" class="form__submit" value="Отправить" />
+					</form>
+				</div>
+				<!-- /.file -->
+			</div>
+			<!-- /.container -->
+		</section>
+
+		<section class="top_sales">
+			<div class="container">
+				<span class="top_sales__title">Топ продаж</span>
+
+				<div class="top_sales-grid">
+					<div class="grid-el el-1">
+						<div class="grid-img">
+							<img
+								src="img/sticker/Holofobia1.png"
+								alt=""
+								class="grid__sticker"
+							/>
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/ttgs.jpg" alt="" class="info__img_user" />
+								<span class="info__username">ttgs</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Holofobia1</span>
+
+							<div class="info-price">
+								<span class="price__crypto">4.70 ETH</span>
+								<span class="price__cash">($16,873.47)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-1 -->
+
+					<div class="grid-el el-2">
+						<div class="grid-img">
+							<img
+								src="img/sticker/Baby Joda.png"
+								alt=""
+								class="grid__sticker"
+							/>
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/Chris22.jpg" alt="" class="info__img_user" />
+								<span class="info__username">Chris22</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Baby Joda</span>
+
+							<div class="info-price">
+								<span class="price__crypto">2.00 ETH</span>
+								<span class="price__cash">($7,121.04)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-2 -->
+
+					<div class="grid-el el-3">
+						<div class="grid-img">
+							<img
+								src="img/sticker/Sadsadsad.png"
+								alt=""
+								class="grid__sticker"
+							/>
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/Paul-22.jpg" alt="" class="info__img_user" />
+								<span class="info__username">Paul-22</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Sadsadsad</span>
+
+							<div class="info-price">
+								<span class="price__crypto">1.50 ETH</span>
+								<span class="price__cash">($5,365.62)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-3 -->
+
+					<div class="grid-el el-4">
+						<div class="grid-img">
+							<img src="img/sticker/Y.EEE.png" alt="" class="grid__sticker" />
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/Tat-2.jpg" alt="" class="info__img_user" />
+								<span class="info__username">Tat_2</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Y.EEE</span>
+
+							<div class="info-price">
+								<span class="price__crypto">3.00 ETH</span>
+								<span class="price__cash">($10,731.24)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-4 -->
+
+					<div class="grid-el el-5">
+						<div class="grid-img">
+							<img
+								src="img/sticker/Infinity_09.png"
+								alt=""
+								class="grid__sticker"
+							/>
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/Oswaald.jpg" alt="" class="info__img_user" />
+								<span class="info__username">Oswaald</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Infinity_09</span>
+
+							<div class="info-price">
+								<span class="price__crypto">1.6109 ETH</span>
+								<span class="price__cash">($5,762.32)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-5 -->
+
+					<div class="grid-el el-6">
+						<div class="grid-img">
+							<img src="img/sticker/Attntn.png" alt="" class="grid__sticker" />
+						</div>
+						<!-- /.grid-img -->
+
+						<div class="grid-info">
+							<div class="info-profile">
+								<img src="img/user/wardxxx.jpg" alt="" class="info__img_user" />
+								<span class="info__username">wardxxx</span>
+							</div>
+							<!-- /.info-profile -->
+
+							<span class="info__sticker_name">Attntn</span>
+
+							<div class="info-price">
+								<span class="price__crypto">1.0 ETH</span>
+								<span class="price__cash">($3,577.08)</span>
+							</div>
+							<!-- /.info-price -->
+						</div>
+						<!-- /.grid-info -->
+					</div>
+					<!-- /.grid-el el-6 -->
+				</div>
+				<!-- /.top_sales__grid -->
+			</div>
+			<!-- /.container -->
+		</section>
+
+		<section class="requirements">
+			<div class="requirements-container container">
+				<div class="requirements-list">
+					<span class="list__title">Для попадания в топ необходимо:</span>
+
+					<ul class="list-ul">
+						<li class="list-li">
+							<img src="img/requirements-1.svg" alt="" class="list__img" />
+							<span class="list__text">Минимум пять опубликованных работ</span>
+						</li>
+						<li class="list-li">
+							<img src="img/requirements-2.svg" alt="" class="list__img" />
+							<span class="list__text">Инвайт трём коллегам по цеху</span>
+						</li>
+						<li class="list-li">
+							<img src="img/requirements-3.svg" alt="" class="list__img" />
+							<span class="list__text">Верифицированный аккаунт</span>
+						</li>
+					</ul>
+				</div>
+				<!-- /.requirements-list -->
+
+				<div class="requirements-img">
+					<img
+						src="img/requirements-smile.png"
+						alt=""
+						class="img__req img__req_1"
+					/>
+					<img
+						src="img/requirements-smile.png"
+						alt=""
+						class="img__req img__req_2"
+					/>
+					<img
+						src="img/requirements-smile.png"
+						alt=""
+						class="img__req img__req_3"
+					/>
+					<img
+						src="img/requirements-smile.png"
+						alt=""
+						class="img__req img__req_4"
+					/>
+					<img
+						src="img/requirements-smile.png"
+						alt=""
+						class="img__req img__req_5"
+					/>
+				</div>
+				<!-- /.requirements-img -->
+			</div>
+			<!-- /.container -->
+		</section>
+
+		<footer class="footer">
+			<div class="footer-container container">
+				<img src="img/logo.svg" alt="" class="footer__logo" />
+
+				<div class="footer__req">
+					<a href="" class="req__agreement">Соглашение</a>
+					<a href="" class="req__license">Лицензия</a>
+					<a href="" class="req__faq">FAQ</a>
+				</div>
+				<!-- /.footer__req -->
+			</div>
+			<!-- /.container -->
+		</footer>
+
+		<section class="under_footer">
+			<span class="under_footer__text">AURA® | 2021</span>
+		</section>
+
+		<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
