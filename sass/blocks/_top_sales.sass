@@ -2,6 +2,7 @@
   background: $black
   padding: 90px 0
   &__title
+    font-family: $russo-one
     font-size: 60px
     font-style: normal
     font-weight: 400
@@ -12,6 +13,7 @@
     flex-wrap: wrap
     // justify-content: space-between
     margin-top: 32px
+    font-family: $montserrat_instead_of
 
 .grid
   &-img
@@ -28,17 +30,21 @@
     border-radius: 0 40px 40px 0
   &-el
     width: 624px
-    height: 174px
+    height: fit-content
     // margin-bottom: 32px
     display: flex
     padding-right: 32px
     padding-bottom: 32px
+  &__sticker
+    display: flex
+    align-self: center
+    margin-right: -15px
 
 .info
   &-profile
     display: flex
     align-items: center
-    margin-bottom: 8px
+    // margin-bottom: 8px
   &__username
     font-size: 16px
     font-style: normal

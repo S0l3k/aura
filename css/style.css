@@ -344,6 +344,7 @@ template {
 .navbar__author {
   padding: 4px 10px;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -355,6 +356,7 @@ template {
 .navbar__collections {
   padding: 4px 10px;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -366,6 +368,7 @@ template {
 .navbar__services {
   padding: 4px 10px;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -381,6 +384,7 @@ template {
   border-radius: 75px;
   background-color: #07060B;
   color: white;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
@@ -409,6 +413,7 @@ template {
   display: flex;
   flex-direction: column;
   height: 254px;
+  font-family: "Russo One", sans-serif;
   font-size: 70px;
   font-weight: 400;
   line-height: 84px;
@@ -418,6 +423,7 @@ template {
 .info-buttons__buy {
   border-radius: 40px;
   padding: 15px 54px;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -431,6 +437,7 @@ template {
 .info-buttons__author {
   border-radius: 40px;
   padding: 10px 54px;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -493,6 +500,7 @@ template {
   margin-bottom: 32px;
 }
 .head__title {
+  font-family: "Russo One", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -534,10 +542,12 @@ template {
   max-height: 460px;
   display: flex;
   flex-direction: column;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bid-user {
-  max-width: 180px;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   align-items: center;
   padding: 11px 16px;
@@ -698,7 +708,7 @@ template {
   height: 30px;
   margin-right: 15px;
 }
-.user__text {
+.user__username {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -707,6 +717,7 @@ template {
 }
 
 .other__title {
+  font-family: "Russo One", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -735,7 +746,7 @@ template {
   border-radius: 40px;
   border: 5px solid #46F4DB;
   background: none;
-  font-family: Muller;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -767,6 +778,7 @@ template {
   padding: 16px 16px 32px 16px;
   border-radius: 0 0 40px 40px;
   background: #07060B;
+  font-family: "Montserrat", sans-serif;
 }
 
 .info-user {
@@ -839,11 +851,9 @@ template {
 
 .swiper {
   width: 1280px;
-  height: 350px;
+  height: 400px;
   margin-top: 32px;
-}
-.swiper-wrapper {
-  margin-bottom: 32px;
+  font-family: "Montserrat", sans-serif;
 }
 .swiper-slide {
   display: flex;
@@ -857,6 +867,7 @@ template {
   padding: 90px 0 90px 0;
 }
 .new_stickers__title {
+  font-family: "Russo One", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -872,6 +883,9 @@ template {
   padding-top: 32px;
   background: #D13130;
 }
+.form_container {
+  display: flex;
+}
 
 .mailling {
   width: 500px;
@@ -879,6 +893,7 @@ template {
   flex-direction: column;
 }
 .mailling__title {
+  font-family: "Russo One", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -894,6 +909,7 @@ template {
   background: #07060B;
   border: none;
   font-size: 20px;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -908,6 +924,7 @@ template {
   border-radius: 40px;
   background: #07060B;
   border: none;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -922,6 +939,7 @@ template {
   border-radius: 40px;
   background: #46F4DB;
   border: none;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -931,12 +949,45 @@ template {
   cursor: pointer;
 }
 .mailling-checkbox {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: white;
-  margin-bottom: 32px;
+  gap: 8px;
+}
+
+.img {
+  width: 788px;
+  display: flex;
+  position: relative;
+}
+.img__alot_1 {
+  weight: 218px;
+  height: 218px;
+  z-index: 7;
+  position: absolute;
+}
+.img__alot_2 {
+  weight: 362px;
+  height: 362px;
+  z-index: 9;
+  position: absolute;
+}
+.img__alot_3 {
+  weight: 323px;
+  height: 323px;
+  z-index: 10;
+  position: absolute;
+}
+.img__alot_4 {
+  weight: 296px;
+  height: 296px;
+  z-index: 8;
+  position: absolute;
 }
 
 .be_author {
@@ -955,6 +1006,7 @@ template {
   margin-right: 32px;
 }
 .subscribtion__title {
+  font-family: "Russo One", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -963,11 +1015,18 @@ template {
   margin-top: 0;
 }
 .subscribtion__text {
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 32px;
+}
+.subscribtion__text__bold {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 .subscribtion__img {
   width: 350px;
@@ -1028,6 +1087,7 @@ template {
   border-radius: 40px;
   background: #EDEDF2;
   border: none;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1042,6 +1102,7 @@ template {
   border-radius: 40px;
   border: none;
   background: #46F4DB;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -1055,6 +1116,7 @@ template {
   padding: 90px 0;
 }
 .top_sales__title {
+  font-family: "Russo One", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -1065,6 +1127,7 @@ template {
   display: flex;
   flex-wrap: wrap;
   margin-top: 32px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .grid-img {
@@ -1084,16 +1147,21 @@ template {
 }
 .grid-el {
   width: 624px;
-  height: 174px;
+  height: -moz-fit-content;
+  height: fit-content;
   display: flex;
   padding-right: 32px;
   padding-bottom: 32px;
+}
+.grid__sticker {
+  display: flex;
+  align-self: center;
+  margin-right: -15px;
 }
 
 .info-profile {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
 }
 .info__username {
   font-size: 16px;
@@ -1146,6 +1214,7 @@ template {
 .requirements-list {
   display: flex;
   flex-direction: column;
+  font-family: "Montserrat", sans-serif;
 }
 .requirements-img {
   width: 460px;
@@ -1223,6 +1292,8 @@ template {
   width: 320px;
   display: flex;
   justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  gap: 20px;
 }
 
 .req__agreement {
@@ -1258,6 +1329,7 @@ template {
   align-items: center;
 }
 .under_footer__text {
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 12px;
   font-style: normal;
