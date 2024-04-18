@@ -396,7 +396,6 @@ template {
   height: 680px;
   padding: 160px 0;
   display: flex;
-  justify-content: center;
   background-color: #07060B;
   overflow: hidden;
 }
@@ -494,6 +493,10 @@ template {
   z-index: 10;
 }
 
+.auction {
+  padding: 90px 0 90px 0;
+}
+
 .head {
   display: flex;
   align-items: center;
@@ -586,7 +589,7 @@ template {
   width: 296px;
   border-radius: 40px;
   background: #EDEDF2;
-  padding: 30px;
+  padding: 32px;
   margin-right: 32px;
 }
 .bid_info-timer {
@@ -596,7 +599,8 @@ template {
   flex-wrap: wrap;
   background: #07060B;
   border-radius: 40px;
-  padding: 15px 32px;
+  padding: 32px;
+  justify-content: space-between;
 }
 
 .timer-wrapper__hour {
@@ -623,7 +627,6 @@ template {
 .timer-timer {
   display: flex;
   justify-content: space-between;
-  margin-right: 44px;
 }
 .timer__text {
   display: flex;
@@ -880,8 +883,9 @@ template {
 }
 
 .form {
-  padding-top: 32px;
+  padding: 32px 32px 0 32px;
   background: #D13130;
+  overflow: hidden;
 }
 .form_container {
   display: flex;
@@ -900,6 +904,7 @@ template {
   line-height: normal;
   color: white;
   margin-bottom: 32px;
+  white-space: nowrap;
 }
 .mailling__name {
   width: 460px;
@@ -963,31 +968,42 @@ template {
 .img {
   width: 788px;
   display: flex;
-  position: relative;
 }
 .img__alot_1 {
   weight: 218px;
   height: 218px;
   z-index: 7;
-  position: absolute;
+  position: relative;
+  top: 69px;
+  left: 0px;
+  transform: rotate(90deg);
 }
 .img__alot_2 {
   weight: 362px;
   height: 362px;
   z-index: 9;
-  position: absolute;
+  position: relative;
+  top: -132px;
+  left: -83px;
+  transform: rotate(150deg);
 }
 .img__alot_3 {
   weight: 323px;
   height: 323px;
   z-index: 10;
-  position: absolute;
+  position: relative;
+  top: 80px;
+  left: -211px;
+  transform: rotate(-15deg);
 }
 .img__alot_4 {
   weight: 296px;
   height: 296px;
   z-index: 8;
-  position: absolute;
+  position: relative;
+  top: -18px;
+  left: -302px;
+  transform: rotate(135deg);
 }
 
 .be_author {
